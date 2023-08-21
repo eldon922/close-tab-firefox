@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Close Tab Extension",
+  "version": "1.0",
+  "description": "A simple Firefox extension to close the current tab.",
+  "permissions": ["tabs"],
+  "browser_action": {
+    "default_icon": {
+      "128": "icon.png"
+    },
+    "default_title": "Close Current Tab"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": {
+    "128": "icon.png"
+  }
+}
